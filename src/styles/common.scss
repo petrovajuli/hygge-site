@@ -1,0 +1,61 @@
+*{
+    font-family: $font-stack;
+}
+
+.section{
+    padding-top: 50px;
+    
+
+    &__title {
+        color: $title-color;
+        text-align: center;
+        font-size: 36px;
+        line-height: 0.56;
+        font-weight: 300;
+    }
+
+   
+}
+
+
+%button {
+  display: inline-block;
+  width: 130px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
+    
+}
+
+.button {
+
+    &__big_main-purchaice {
+        @extend %button;
+        background-color: #b0cd3b;
+        border-bottom: 3px solid #798f21;
+        border-radius: 5px;
+    }
+
+
+    &__big_main-follow {
+        @extend %button; 
+        background-color: #1bbc9d;
+        border-bottom: 3px solid #1f937d;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+     &__small {
+            @extend %button;
+            width: 105px;
+            font-size: 14px;
+            line-height: 1.43;
+            color: #515151;
+            background-color: #ececec;
+            margin: 0px 2.5px 0px 2.5px;
+        }  
+
+}
