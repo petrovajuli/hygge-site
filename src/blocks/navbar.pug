@@ -1,4 +1,4 @@
--var navLinks = [{url: 'wood.html', name: 'WOOD'},{url: 'glass.html', name: 'GLASS'}, {url: 'ceramo.html', name: 'CERAMIC'}]
+-var navLinks = [{url: '/pages/wood.html', name: 'WOOD'},{url: '/pages/glass.html', name: 'GLASS'}, {url: '/pages/ceramo.html', name: 'CERAMIC'}]
 
 
 mixin navbar
@@ -8,5 +8,8 @@ mixin navbar
       ul
         each link in navLinks
           li
-            a(href=link.url)=link.name
+            if selected === link.name
+              a.active(href=link.url)=link.name
+            else
+              a(href=link.url)=link.name
 
