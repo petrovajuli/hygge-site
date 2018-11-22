@@ -1,0 +1,19 @@
+.navbar {
+  padding: 50px 0;
+  color: $color-grey-8;
+}
+
+.navbar .row {
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+i {
+  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome\ 5 Brand";
+}

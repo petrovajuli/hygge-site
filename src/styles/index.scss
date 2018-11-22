@@ -1,10 +1,17 @@
 $font-stack:  Montserrat, sans-serif;
-$bg-color:#cebcb3;
-$title-color:#595959;
-$text-color:#969696;
-$dark-green:#17987f;
 
+$color-main-beige:#fffced;
+$color-main-grey:#e5e5e5;
+$color-main-pink:#fff6f6;
+
+$color-grey-8:#2d2d2d;
+$color-grey-6:#5b5b5b;
+$color-grey-4:#898989;
+$color-grey-2:#b7b7b7;
+
+
+@import "./reset.scss";
 @import "./grid.scss";
 @import "./common.scss";
-
+@import "./navbar.scss";
 
